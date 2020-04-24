@@ -74,7 +74,7 @@ metadata:
     app: cockroachdb
 spec:
   serviceName: "cockroachdb"
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: cockroachdb
